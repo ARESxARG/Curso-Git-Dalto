@@ -23,7 +23,7 @@ Author: ARESxARG <ortiz.alejonicolas@gmail.com> #Usuario y gmail del autor
 Date:   Sun May 4 13:50:23 2025 -0300 #Fecha y horario 
 Archivo Subir-Repositorio.sh modificado #Mensaje del Commit
 
-git log --oneline #Muestra cada commit en una sola línea (ideal para repaso rápido)
+git log --oneline -all #Muestra cada commit en una sola línea (ideal para repaso rápido)
 #Ejemplo del caso con los archivos actuales del repositorio: 
 c772f58 (HEAD -> master) Archivo Subir-Repositorio.sh modificado
 c9cad30 Nuevos archivos creados Comandos-Utiles.sh y modificacion de archivos.
