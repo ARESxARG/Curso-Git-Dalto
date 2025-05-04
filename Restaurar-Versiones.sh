@@ -1,0 +1,1 @@
+#Como borrar y restaurar versiones de los archivos despues de hacer commit. 
