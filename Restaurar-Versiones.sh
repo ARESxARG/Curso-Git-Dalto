@@ -13,3 +13,10 @@ git checkout . #Restaura todos los archivos modificados en el directorio actual
 RESTAURAR ARCHIVOS QUE HAYAMOS SUBIDOS AL AREA DE PREPARACIÓN (git add)
 >>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
 git reset --hard #Quita el commit. Quita los cambios del staging. Borra los archivos modificados: volvés a como estaba ese committ
+""">>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<
+MODIFICACIÓN DE COMMITS ENVIADOS, EN STAGING O AREA DE TRABAJO. 
+>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
+git commit --amend	#Modifica el último commit (mensaje o contenido).
+git reset --soft HEAD~1 #"--soft" Deshace el último commit, pero los archivos siguen listos para commitear de nuevo.
+git reset --hard HEAD~1 #Mueve el HEAD un commit ATRAS (borra el ultimo commit), saca los archivos del staging y borra todos los archivos del disco. No usarlo a la ligera.
+git reset --mixed #Mueve el HEAD y saca los archivos del staging, pero no borra los cambios del archivo.

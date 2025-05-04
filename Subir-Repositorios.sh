@@ -13,12 +13,13 @@ mkdir #"mkdir" o "make directory" : para crear un nuevo directorio (o carpeta) e
 rmdir #"rmdir" o "remove directory" : para remover un directorio.
 ls #O "lista" sirve para ver justamente una lista, de lo que se encuentra dentro de una carpeta. 
 """>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<
-COMANDOS PRINCIPALES PARA SUBIR UN REPOSITORIO EN GIT
+1ER COMANDO PARA SUBIR UN REPOSITORIO EN GIT
 >>>>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
-#1ER PASO : INICIALIZAMOS CARPETAS DE GIT EN NUESTRO DIRECTORIO
+#INICIALIZAMOS CARPETAS DE GIT EN NUESTRO DIRECTORIO
 git init #Luego de posarnos sobre la carpeta en cuestion que vamos a usar utilizando /cd. Generamos un repositorio utilizando este comando.
-
-#2D0 PASO : INDICAMOS QUE CARPETAS O ARCHIVOS SE VAN A SUBIR
+""">>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<
+2D0 PASO : INDICAMOS QUE CARPETAS O ARCHIVOS SE VAN A SUBIR
+>>>>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
 git add archivo.txt	#Agrega ese archivo al area de preparación o se pueden agregar varios si dejas un espacio entre cada nombre de archivo.
 git add .	#Agrega todos los archivos modificados (menos ignorados) de una carpeta.
 git add *.html	#Agrega todos los archivos con tal terminación .html.
@@ -27,8 +28,9 @@ git add -A	#Agrega todo: archivos nuevos, modificados y eliminados.
 git status #Para saber en que estado se encuentran nuestros archivos y si requieren realizar alguna acción. 
 git rm archivo.txt #Para eliminar un archivo del repositorio y de la carpeta en general.
 git rm --cached archivo.txt #Para eliminar un archivo únicamente del repositorio.
-
-#3ER PASO : HACEMOS NUESTRO PRIMER COMMIT
+""">>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<
+3ER PASO : HACEMOS NUESTRO PRIMER COMMIT
+>>>>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
 git commit (sin -m)	#Abre un editor de texto (como vim o VS Code si configuraste core.editor) para escribir un mensaje largo.
 git commit -m "Tu mensaje descriptivo" #Enviamos un mensaje sobre nuestro repositorio.
 git commit -a -m "mensaje"	#Hace add automáticamente de archivos modificados y los comitea.
