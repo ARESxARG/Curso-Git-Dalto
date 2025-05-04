@@ -10,19 +10,11 @@ cd "C:\Users\Lyberty\Desktop\Curso Git Dalto"
 #Al colocar el nombre final de una carpeta se utilizan las comillas dobles ("Curso Git Dalto")
 """>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
 mkdir #"mkdir" o "make directory" : para crear un nuevo directorio (o carpeta) en un directorio en el que estemos navegando con "cd".
-rmdir #"rmdir" o "remove directory" : para remover un directorio. 
-""">>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
-ls #O "lista" sirve para ver justamente una lista, de lo que se encuentra dentro de una carpeta.
-ls -l #Muestra detalles (permisos, tamaño, fecha de modificación, etc.)
-ls -a #Muestra todos los archivos, incluyendo los ocultos (. files)
-ls -la o ls -al	#Muestra detalles y incluye los archivos ocultos
-ls -lh #Muestra tamaños en un formato legible (ej: KB, MB)
-ls -R #Lista recursivamente subdirectorios
-ls carpeta #Lista el contenido de una carpeta específica
-""">>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
-"""
+rmdir #"rmdir" o "remove directory" : para remover un directorio.
+ls #O "lista" sirve para ver justamente una lista, de lo que se encuentra dentro de una carpeta. 
+""">>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<
 COMANDOS PRINCIPALES PARA SUBIR UN REPOSITORIO EN GIT
-"""
+>>>>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
 #1ER PASO : INICIALIZAMOS CARPETAS DE GIT EN NUESTRO DIRECTORIO
 git init #Luego de posarnos sobre la carpeta en cuestion que vamos a usar utilizando /cd. Generamos un repositorio utilizando este comando.
 
