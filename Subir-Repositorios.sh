@@ -37,6 +37,7 @@ git rm archivo.txt #Para eliminar un archivo del repositorio y de la carpeta en 
 git rm --cached archivo.txt #Para eliminar un archivo únicamente del repositorio.
 
 #3ER PASO : HACEMOS NUESTRO PRIMER COMMIT
+git commit #Si antes aclaramos nuestro IDE, nos abrira VS Code y haremos un commit para el archivo.
 git commit -m "Tu mensaje descriptivo" #Enviamos un mensaje sobre nuestro repositorio.
 git commit -a -m "mensaje"	#Hace add automáticamente de archivos modificados y los comitea.
 git commit --amend	#Modifica el último commit (mensaje o contenido).
