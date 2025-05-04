@@ -12,3 +12,11 @@ git switch pepito-123 #"switch" Este es otro comando y el mas recomendable para 
 CREAR UNA RAMA Y REUBICARNOS CON SOLAMENTE UN COMANDO
 >>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
 git switch -c pepito-otra-vez #Uilizamos el comando anterior pero le agregamos un "-c" (create) para crear y al mismo tiempo, reubicarnos en la rama que creamos rapidamente.
+""">>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<
+FUSIONAR DOS BRANCHES EN UNO
+>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
+git merge pepito-otra-vez #Lo que hace "merge" es fusionar los commit de la rama "pepioblabla" a la rama principal (master o main). Al fusionar las ramas, automaticamente te autoposicionas a la rama principal y se fusionan ambas ramas en una sola. 
+""">>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<
+VOLVER AL ESTADO DE LOS ARCHIVOS DE LA RAMA PRINCIPAL ANTES DE FUSIONARLOS
+>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<>>>>>>>>>><<<<<<<<<<"""
+git reset --hard HASHDELCOMMIT #Esto retrocede y borra los archivos que se fusionaron para volver a la ultima version commiteda de los archivos.
